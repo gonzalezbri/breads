@@ -5,6 +5,10 @@ function Index ({breads})  {
     return (
         <Default >
             <h2>Index Page</h2>
+            <div className="newButton">
+    <a className = 'button' href="/breads/new"><button>Add a new bread</button></a>
+</div>
+
             {/* <p>I have {breads[0].name} bread!</p> /}
             {/ This is a JSX comment. */}
             <ul>
